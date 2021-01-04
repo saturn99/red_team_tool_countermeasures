@@ -1,4 +1,7 @@
-rule Loader_MSIL_RuralBishop_1
+// Copyright 2020 by FireEye, Inc.
+// You may not use this file except in compliance with the license. The license should have been received with this file. You may obtain a copy of the license at:
+// https://github.com/fireeye/red_team_tool_countermeasures/blob/master/LICENSE.txt
+rule Loader_MSIL_RuralBishop_3
 {
     meta:
         description = "The TypeLibGUID present in a .NET binary maps directly to the ProjectGuid found in the '.csproj' file of a .NET project. This rule looks for .NET PE files that contain the ProjectGuid found in the public RuralBishop project."
